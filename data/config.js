@@ -14,8 +14,8 @@ window.DW_CONFIG = {
 
   // Online database + accounts (Supabase). Paste your project's URL and anon (public) key to turn on
   // households shared across devices. Leave empty to run in local mode (data stays in this browser).
-  supabaseUrl: "",
-  supabaseAnonKey: "",
+  supabaseUrl: "https://zcizjxurwyypbwsrcwjw.supabase.co",
+  supabaseAnonKey: "sb_publishable_dGml3tSBb9N-RIUJXknrkA__MssoDd9",
   rankingMinHouseholds: 1, // raise to 3+ for real use so a single home's numbers can't be singled out
 
   // Google Sign-In (optional): paste an OAuth 2.0 Web client ID from Google Cloud Console to turn on "Continue with Google".
