@@ -1,0 +1,11 @@
+{
+  "name": "dropwise-yyc",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "DropWise YYC — helping Calgary households save water during restrictions.",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "engines": { "node": ">=18" }
+}
