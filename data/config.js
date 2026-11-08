@@ -21,6 +21,10 @@ window.DW_CONFIG = {
   // Google Sign-In (optional): paste an OAuth 2.0 Web client ID from Google Cloud Console to turn on "Continue with Google".
   googleClientId: "",
 
+  // Google Maps (optional): paste a Maps JavaScript API key to show the quadrant map on Google Maps.
+  // Restrict the key to your site (Google Cloud → Credentials → Website restrictions). Empty = free OpenStreetMap map.
+  googleMapsApiKey: "",
+
   // Quick-add buttons. Litres from the City of Calgary Stage 4 page unless marked "estimate".
   activities: [
     { id: "shower",     label: "Shower (3 min)", icon: "🚿", category: "washroom",   litres: 28.5, perMinute: 9.5, note: "3-minute shower (City's ask) with a regular shower head: 47.5 L per 5 min = 9.5 L/min (City of Calgary). Low-flow: 7.6 L/min." },
